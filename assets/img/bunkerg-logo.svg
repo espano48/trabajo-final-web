@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Logotipo horizontal de BunkerG para fondos oscuros</title>
+  <desc id="desc">Símbolo de entrada a un refugio y denominación BunkerG.</desc>
+  <defs>
+    <linearGradient id="threshold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(34 28) scale(.66)" fill="none" stroke-linejoin="round">
+    <path d="M42 396V127L128 42H346L432 127V396" stroke="#7C3AED" stroke-width="30"/>
+    <path d="M104 396V157L158 103H316L370 157V396" stroke="#F8FAFC" stroke-width="24"/>
+    <path d="M171 396V191L194 168H280L303 191V396" stroke="#22D3EE" stroke-width="24"/>
+    <path d="M194 168L238 211L280 168M238 211V373" stroke="#7C3AED" stroke-width="16" opacity=".82"/>
+    <path d="M34 410H440" stroke="url(#threshold)" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="370" y="190" fill="#F8FAFC" font-size="128" font-weight="700" letter-spacing="-6">Bunker</text>
+    <text x="792" y="190" fill="#7C3AED" font-size="128" font-weight="700">G</text>
+    <text x="377" y="242" fill="#22D3EE" font-size="22" font-weight="700" letter-spacing="7">DISEÑO DE ESPACIOS GAMING</text>
+  </g>
+</svg>
+
