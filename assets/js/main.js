@@ -15,19 +15,19 @@ var heroConcepts = [
   {
     theme: "core",
     name: "BunkerG Core",
-    image: "assets/img/bunkerg-core-hero.png?v=final-1",
+    image: "assets/img/bunkerg-core-hero.webp?v=final-1",
     alt: "Escritorio BunkerG Core con monitor panorámico, torre iluminada y ambiente frío morado y cian"
   },
   {
     theme: "arena",
     name: "BunkerG Arena",
-    image: "assets/img/bunkerg-arena-hero.png?v=final-1",
+    image: "assets/img/bunkerg-arena-hero.webp?v=final-1",
     alt: "Salón BunkerG Arena con sofá modular, iluminación ambiental, televisor gaming, lámpara Glowstone y sillón Cougar"
   },
   {
     theme: "creator",
     name: "BunkerG Creator",
-    image: "assets/img/bunkerg-creator-hero.png?v=final-1",
+    image: "assets/img/bunkerg-creator-hero.webp?v=final-1",
     alt: "Estudio BunkerG Creator con doble monitor, cámara, micrófono, tableta gráfica y luz ambiental ámbar"
   }
 ];
