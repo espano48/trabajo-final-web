@@ -860,7 +860,7 @@ input:focus {
 
 .site-footer {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) auto auto;
+  grid-template-columns: minmax(220px, 1fr) auto auto auto;
   gap: 34px;
   align-items: start;
   padding: 32px max(24px, calc((100% - var(--content-width)) / 2));
@@ -880,7 +880,8 @@ input:focus {
 }
 
 .footer-nav,
-.footer-contact {
+.footer-contact,
+.footer-social {
   display: grid;
   align-content: start;
   gap: 7px;
@@ -895,12 +896,31 @@ input:focus {
   font-size: 0.86rem;
 }
 
-.footer-contact svg {
+.footer-contact svg,
+.footer-social svg {
   width: 18px;
   height: 18px;
   fill: none;
   stroke: var(--cyan);
   stroke-width: 1.8;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+}
+
+.social-links a {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+}
+
+.social-links a:hover {
+  color: var(--cyan);
+  border-color: var(--cyan);
 }
 
 .footer-meta {
